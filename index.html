@@ -1,11 +1,18 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Title of the document</title>
-  </head>
-  <body>
-    <button onclick="window.location.href='chrome://gpucrash/';">
-      Click Here
-    </button>
-  </body>
+<body>
+
+<button id="button" onclick="myFunction()">Try it</button>
+
+<script>
+    var counter = 0;
+    function myFunction() {
+        counter++;
+        if (counter === 3) {
+            window.open('www.youtube.com/')
+        }
+    }
+
+  </script>
+</body>
 </html>
